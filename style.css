@@ -95,5 +95,37 @@ button:hover {
   }
 }
 
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #004d40;
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #00796b;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
